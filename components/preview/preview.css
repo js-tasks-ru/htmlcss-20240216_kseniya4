@@ -1,0 +1,12 @@
+.preview {
+    background-color: var(--grey-5);
+    padding: 68px 0;
+}
+.preview__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.preview__card {
+    flex-grow: 1;
+}
