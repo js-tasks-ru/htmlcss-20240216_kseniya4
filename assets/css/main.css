@@ -25,10 +25,7 @@
     --primary: var(--blue);
     --secondary: var(--purple);
 }
-
-* {
-    font-family: 'Roboto', sans-serif;
-}
 html, body {
+    font-family: 'Roboto', sans-serif;
     height: 100vh;
 }
