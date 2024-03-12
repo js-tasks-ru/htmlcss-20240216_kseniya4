@@ -5,6 +5,7 @@
 @import '../../components/footer/footer.css';
 @import '../../components/card/card.css';
 @import '../../components/container/container.css';
+@import '../../03-lection1/01-button/button.css';
 
 :root {
     --white: #ffffff;
@@ -28,4 +29,5 @@
 html, body {
     font-family: 'Roboto', sans-serif;
     height: 100vh;
+    margin: 0;
 }
