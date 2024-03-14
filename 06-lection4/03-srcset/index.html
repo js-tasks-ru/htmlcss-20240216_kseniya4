@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
+        <title>Srcset</title>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./srcset.css">
     </head>
     <body>
-
+        <div class="section">
+            <img
+              src="public/forest_400.jpg"
+              alt="Forest"
+              srcset="public/forest_400.jpg 1x, public/forest_768.jpg 2x"
+              sizes="(max-width: 1024px) 300px, 400px"
+            />
+        </div>
     </body>
 </html>
