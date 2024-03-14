@@ -44,3 +44,8 @@
     cursor: pointer;
     font-size: 0;
 }
+.modal__icon {
+    width: 16px;
+    height: 16px;
+    color: var(--grey-4);
+}
