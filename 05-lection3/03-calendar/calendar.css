@@ -45,6 +45,7 @@
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     color: #90A0B7;
+    margin-bottom: 8px;
 }
 .calendar__item_rangestart {
     background: var(--blue);
