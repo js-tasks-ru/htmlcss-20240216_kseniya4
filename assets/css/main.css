@@ -5,6 +5,10 @@
 @import '../../components/footer/footer.css';
 @import '../../components/card/card.css';
 @import '../../components/container/container.css';
+@import '../../components/template/template.css';
+@import '../../components/sidebar/sidebar.css';
+@import '../../components/component/component.css';
+@import '../../components/theme-changer/theme-changer.css';
 @import '../../03-lection1/01-button/button.css';
 
 :root {
