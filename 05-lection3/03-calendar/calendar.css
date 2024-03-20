@@ -29,6 +29,7 @@
     bottom: 0;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
 }
 .calendar__item {
     display: flex;
@@ -45,7 +46,7 @@
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     color: #90A0B7;
-    margin-bottom: 8px;
+    align-self: flex-start;
 }
 .calendar__item_rangestart {
     background: var(--blue);
