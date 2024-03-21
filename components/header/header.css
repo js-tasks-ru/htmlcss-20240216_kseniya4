@@ -43,3 +43,24 @@
     color: var(--black);
     margin: 38px 0 40px;
 }
+@media screen and (max-width: 767px) {
+    .header {
+        padding: 16px 0 0;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__inner {
+        justify-content: center;
+    }
+    .header__logo {
+        flex-grow: 0;
+    }
+    .header__title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        color: var(--grey-4);
+    }
+}

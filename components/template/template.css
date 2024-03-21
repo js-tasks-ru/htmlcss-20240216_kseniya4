@@ -23,3 +23,9 @@
     text-transform: uppercase;
     color: var(--grey-3);
 }
+@media screen and (max-width: 767px) {
+    .template__main {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+    }
+}
