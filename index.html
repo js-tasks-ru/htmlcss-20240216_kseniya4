@@ -2,14 +2,30 @@
 <!-- Главная страница -->
 <html lang="ru">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Reusable component library</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/krishdevdb/reseter.css/css/reseter.min.css">
         <link rel="stylesheet" href="./assets/css/main.css">
     </head>
     <body>
         <div class="page">
-            <header class="header">
+            <header class="header header_white">
                 <div class="container">
+                    <div class="header__inner">
+                        <a href="index.html" class="header__logo">
+                            <svg class="header__logo-svg"><use href="../../assets/images/icons.svg#logo"></use></svg>
+                        </a>
+                        <nav class="header__nav">
+                            <a href="#" class="header__nav-item header__nav-item_selected">Components</a>
+                            <a href="#" class="header__nav-item ">About</a>
+                            <a href="#" class="header__nav-item ">Contact</a>
+                        </nav>
+                        <div class="theme-changer">
+                            <svg class="theme-changer-svg"><use href="../../assets/images/icons.svg#sun"></use></svg>
+                            <svg class="theme-changer-svg"><use href="../../assets/images/icons.svg#moon"></use></svg>
+                        </div>
+                    </div>
                     <h1 class="header__title">Reusable component library</h1>
                 </div>
             </header>

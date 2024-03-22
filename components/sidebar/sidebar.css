@@ -1,0 +1,31 @@
+.sidebar {
+    width: 229px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.sidebar__title {
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+.sidebar__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.sidebar__nav-item {
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--black);
+    text-decoration: none;
+}
+.sidebar__nav-item_selected {
+    color: #D84910;
+}
+@media screen and (max-width: 767px) {
+    .sidebar {
+        display: none;
+    }
+}
