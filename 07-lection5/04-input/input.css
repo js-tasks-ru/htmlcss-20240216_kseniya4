@@ -22,6 +22,7 @@
     height: 24px;
     bottom: 16px;
     right: 16px;
+    display: none;
 }
 .input__icon_success {
     color: var(--success);
@@ -53,6 +54,12 @@
 .input__field:focus-visible {
     outline: none;
 }
-.input__field_error {
+.input_success .input__icon_success {
+    display: block;
+}
+.input_error .input__field {
     border: 1px solid var(--error);
+}
+.input_error .input__icon_error {
+    display: block;
 }
